@@ -1,0 +1,214 @@
+.roll-them-all5,
+.slide-athletic-journal5 {
+  position: relative;
+  font-family: var(--font-viga);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.slide-athletic-journal5 {
+  font-size: 11.33px;
+  color: var(--color-white);
+  width: 124px;
+  height: 16px;
+}
+.roll-them-all5 {
+  font-size: var(--font-size-5xs);
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  color: var(--color-gray-200);
+  width: 95.74px;
+  height: 17.33px;
+  margin-top: -4.67px;
+}
+.logo5 {
+  width: 124px;
+  height: 28.67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home5 {
+  text-decoration: none;
+  position: relative;
+  font-size: 13.33px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.info5 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 466.66668701171875px;
+  align-items: center;
+  justify-content: center;
+  gap: 33.33px;
+}
+.break5 {
+  position: relative;
+  border-right: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 2px;
+  height: 22px;
+}
+.vector-icon7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector4 {
+  text-decoration: none;
+  position: relative;
+  width: 16.67px;
+  height: 16.67px;
+}
+.login5,
+.navbar5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 33.33px;
+}
+.login5 {
+  padding: 0 0 0 26.666667938232422px;
+}
+.navbar5 {
+  align-self: stretch;
+  padding: var(--padding-xl) 0 0;
+}
+.sign-up7,
+.username3 {
+  position: relative;
+  font-size: var(--font-size-41xl);
+  font-family: var(--font-viga);
+  color: var(--color-white);
+  text-align: left;
+}
+.username3 {
+  text-decoration: none;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 133.33px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.username-item {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  border-bottom: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 386.67px;
+  height: 45.33px;
+  font: var(--font-inter);
+  color: #fff;
+}
+.username2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.full-name-item,
+.rectangle-input {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  border-bottom: 2px solid var(--color-white);
+  box-sizing: border-box;
+  height: 45.33px;
+  font: var(--font-inter);
+  color: #fff;
+}
+.date-of-birth1,
+.forgot-password3 {
+  position: relative;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.date-of-birth1 {
+  text-decoration: none;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-white);
+  display: inline-block;
+  width: 186.67px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.forgot-password3 {
+  flex: 1;
+  font-size: 16.67px;
+  color: var(--color-teal);
+}
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 6.6666669845581055px 0 6.6666669845581055px 233px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.create-account1 {
+  position: relative;
+  font-size: 17.33px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.btn-createaccount1 {
+  cursor: pointer;
+  border: 2px solid var(--color-teal);
+  padding: 13.333333969116211px 0;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 5.33px;
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.username-group {
+  flex: 1;
+  width: 386.67px;
+  gap: var(--gap-xl);
+}
+.form1,
+.signupdark,
+.username-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form1 {
+  height: 578.67px;
+  padding: var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+}
+.signupdark {
+  position: relative;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 2.6666667461395264px 2.67px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+}

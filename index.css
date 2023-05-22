@@ -1,0 +1,120 @@
+.roll-them-all,
+.slide-athletic-journal {
+  position: relative;
+  font-family: var(--font-viga);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.slide-athletic-journal {
+  font-size: 11.33px;
+  color: var(--color-white);
+  width: 124px;
+  height: 16px;
+}
+.roll-them-all {
+  font-size: var(--font-size-5xs);
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  color: var(--color-gray-200);
+  width: 95.74px;
+  height: 17.33px;
+  margin-top: -4.67px;
+}
+.logo {
+  width: 124px;
+  height: 28.67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home {
+  cursor: grab;
+}
+.about-us,
+.home {
+  text-decoration: none;
+  position: relative;
+  font-size: 13.33px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 466.66668701171875px;
+  align-items: center;
+  justify-content: center;
+  gap: 33.33px;
+}
+.break {
+  position: relative;
+  border-right: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 2px;
+  height: 22px;
+}
+.vector-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.colormode {
+  text-decoration: none;
+  position: relative;
+  width: 16.67px;
+  height: 16.67px;
+}
+.login,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 33.33px;
+}
+.login {
+  padding: 0 0 0 26.666667938232422px;
+}
+.navbar {
+  width: 1280px;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.vector-icon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 964px;
+  flex-shrink: 0;
+}
+.landingpagedark,
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.summary {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-81xl);
+  justify-content: center;
+}
+.landingpagedark {
+  position: relative;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 2.6666667461395264px 2.67px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  overflow: hidden;
+  justify-content: flex-start;
+}

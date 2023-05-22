@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./contact-dark.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Viga:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contactdark">
+      <nav class="navbar9">
+        <div class="logo8">
+          <div class="slide-athletic-journal9">Slide Athletic Journal</div>
+          <div class="roll-them-all9">Roll Them All Day</div>
+        </div>
+        <div class="info8">
+          <a class="home9" href="/">HOME</a>
+          <a class="home9" href="./about-us-dark.html">ABOUT US</a>
+          <button class="contact10" disabled>CONTACT</button>
+        </div>
+        <div class="break8"></div>
+        <div class="login8">
+          <a class="home9" href="./log-in-dark.html">LOG IN</a>
+          <a class="home9" href="./sign-up-dark.html">SIGN UP</a>
+          <a class="vector8" href="./contact-light.html">
+            <img class="vector-icon11" alt="" src="./public/vector.svg" />
+          </a>
+        </div>
+      </nav>
+      <div class="body3">
+        <div class="contact11">
+          <b class="contact-us1">Contact Us</b>
+          <div class="any-question-or1">
+            Any question or remarks? Just write us a message!
+          </div>
+        </div>
+        <div class="largebox1">
+          <div class="smallbox1">
+            <div class="contents1">
+              <img class="shapes-icon1" alt="" src="./public/shapes1.svg" />
+
+              <div class="contacts1">
+                <div class="carbonlocation-filled-group">
+                  <img
+                    class="bxsphone-call-icon1"
+                    alt=""
+                    src="./public/bxsphonecall1.svg"
+                  />
+
+                  <div class="contact-us1">+1 510-255-5998</div>
+                </div>
+                <div class="carbonlocation-filled-group">
+                  <img
+                    class="bxsphone-call-icon1"
+                    alt=""
+                    src="./public/icsharpemail1.svg"
+                  />
+
+                  <div class="contact-us1">matyask2025@headroyce.org</div>
+                </div>
+                <div class="carbonlocation-filled-group">
+                  <img
+                    class="bxsphone-call-icon1"
+                    alt=""
+                    src="./public/carbonlocationfilled1.svg"
+                  />
+
+                  <div class="lincoln-ave-oakland1">
+                    4315 Lincoln Ave, Oakland, CA 94602
+                  </div>
+                </div>
+              </div>
+              <div class="header-sub-div1">
+                <div class="contact-information1">Contact Information</div>
+                <div class="you-can-contact1">
+                  You can contact me at any address below.
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="form3">
+            <div class="row11">
+              <div class="firstname1">
+                <div class="first-name1">First Name</div>
+                <input class="input5" type="text" required />
+              </div>
+              <div class="firstname1">
+                <div class="first-name1">Last Name</div>
+                <input
+                  class="input6"
+                  type="text"
+                  maxlength="{30}"
+                  minlength="{3}"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row21">
+              <div class="firstname1">
+                <div class="first-name1">Email</div>
+                <input class="input6" type="email" required />
+              </div>
+              <div class="firstname1">
+                <div class="first-name1">Phone Number</div>
+                <input class="input6" type="tel" />
+              </div>
+            </div>
+            <div class="row31">
+              <div class="select-subject1">Select Subject?</div>
+              <div class="selections1">
+                <div class="generalinq1">
+                  <input class="checkbox4" type="radio" />
+
+                  <div class="general-inquiry1">General Inquiry</div>
+                </div>
+                <div class="generalinq1">
+                  <input class="checkbox4" type="radio" />
+
+                  <div class="general-inquiry1">Bugs/Issues</div>
+                </div>
+                <div class="generalinq1">
+                  <input class="checkbox4" type="radio" />
+
+                  <div class="general-inquiry1">App Help</div>
+                </div>
+                <div class="privacysafety1">
+                  <input class="checkbox4" type="radio" />
+
+                  <div class="general-inquiry1">Privacy & Safety</div>
+                </div>
+              </div>
+            </div>
+            <div class="row41">
+              <div class="first-name1">Message</div>
+              <textarea class="input9" required autofocus> </textarea>
+            </div>
+            <button class="box1" id="box">
+              <div class="send-message1">Send Message</div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var box = document.getElementById("box");
+      if (box) {
+        box.addEventListener("click", function (e) {
+          window.location.href = "./thank-you-dark.html";
+        });
+      }
+      </script>
+  </body>
+</html>

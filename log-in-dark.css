@@ -1,0 +1,202 @@
+.roll-them-all2,
+.slide-athletic-journal2 {
+  position: relative;
+  font-family: var(--font-viga);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.slide-athletic-journal2 {
+  font-size: 11.33px;
+  color: var(--color-white);
+  width: 124px;
+  height: 16px;
+}
+.roll-them-all2 {
+  font-size: var(--font-size-5xs);
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  color: var(--color-gray-200);
+  width: 95.74px;
+  height: 17.33px;
+  margin-top: -4.67px;
+}
+.logo2 {
+  width: 124px;
+  height: 28.67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home2 {
+  text-decoration: none;
+  position: relative;
+  font-size: 13.33px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.info2 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 466.66668701171875px;
+  align-items: center;
+  justify-content: center;
+  gap: 33.33px;
+}
+.break2 {
+  position: relative;
+  border-right: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 2px;
+  height: 22px;
+}
+.vector-icon4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector1 {
+  text-decoration: none;
+  position: relative;
+  width: 16.67px;
+  height: 16.67px;
+}
+.login2,
+.navbar2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 33.33px;
+}
+.login2 {
+  padding: 0 0 0 26.666667938232422px;
+}
+.navbar2 {
+  align-self: stretch;
+  padding: var(--padding-xl) 0 0;
+}
+.emailusername,
+.log-in3 {
+  position: relative;
+  font-size: var(--font-size-41xl);
+  font-family: var(--font-viga);
+  color: var(--color-white);
+  text-align: left;
+}
+.emailusername {
+  text-decoration: none;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+}
+.email-child {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  border-bottom: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 386.67px;
+  height: 45.33px;
+  font: var(--font-inter);
+  color: #fff;
+}
+.email {
+  width: 386.67px;
+  height: 75.33px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13.33px;
+}
+.pass-child {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  border-bottom: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 386.67px;
+  height: 45.33px;
+  font: var(--font-inter);
+  padding-left: var(--padding-8xs);
+  color: #000;
+}
+.forgot-password {
+  position: relative;
+  font-size: 16.67px;
+  font-family: var(--font-inter);
+  color: var(--color-teal);
+  text-align: left;
+}
+.forgot-password-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 6.6666669845581055px 0 233.33334350585938px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.log-in4 {
+  position: relative;
+  font-size: 17.33px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.btn-login,
+.log-in-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-login {
+  cursor: pointer;
+  border: 2px solid var(--color-teal);
+  padding: 0;
+  background-color: transparent;
+  border-radius: 5.33px;
+  box-sizing: border-box;
+  width: 226.67px;
+  height: 40px;
+}
+.log-in-parent {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.vecteezy-running-track-glyph-i-icon {
+  position: absolute;
+  top: 0;
+  left: 40.5px;
+  width: 1361px;
+  height: 463.33px;
+  object-fit: cover;
+}
+.vecteezy-running-track-glyph-i-wrapper {
+  position: relative;
+  width: 1361px;
+  height: 463.33px;
+}
+.logindark {
+  position: relative;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 2.6666667461395264px 2.67px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+}
